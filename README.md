@@ -115,6 +115,7 @@ La aplicación debe abrirse mediante el servidor de Laragon; abrir `index.php` d
 | --- | --- |
 | `index.php` | Muestra el formulario y consulta los productos registrados. |
 | `guardar.php` | Valida los datos recibidos y guarda el producto. |
+| `funciones.php` | Contiene las funciones para validar los datos del formulario. |
 | `config/conexion.php` | Configura la conexión a la base de datos mediante PDO. |
 | `css/estilos.css` | Define la apariencia de la aplicación. |
 | `base_datos.sql` | Contiene la estructura de la tabla y los datos de ejemplo. |

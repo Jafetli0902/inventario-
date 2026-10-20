@@ -62,7 +62,7 @@ jobs:
             "$DB_NAME" < test/estructura_pruebas.sql
 
       - name: Ejecutar pruebas unitarias
-        run: php test/test_validaciones.php
+        run: php test/test_validacion.php
 
       - name: Ejecutar prueba de integración
         run: php test/test_integracion.php

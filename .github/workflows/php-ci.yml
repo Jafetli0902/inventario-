@@ -47,10 +47,10 @@ jobs:
 
       - name: Verificar sintaxis
         run: |
-          php -l src/validaciones.php
-          php -l test/test_validacion.php
-          php -l test/conexion_pruebas.php
-          php -l test/test_integracion.php
+          php -l /funciones.php
+          php -l /test/test_validacion.php
+          php -l /test/conexion_pruebas.php
+          php -l /test/test_integracion.php
 
       - name: Crear tabla de pruebas
         env:
